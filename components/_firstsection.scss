@@ -1,0 +1,28 @@
+.first-section{
+    background-image: url(../images/diego.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title {
+    padding-top: 195px;
+    font-family: "Roboto";
+font-weight: 900;
+font-size: 120px;
+line-height: 0.92;
+color: $white;
+padding-bottom: 21px;
+
+
+}
+.btn-first {
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+color: $white;
+background-color: $main-red;
+border-radius: 211px;
+border: none;
+padding: 26px 64px;
+
+}
