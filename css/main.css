@@ -2,7 +2,7 @@
   width: 480px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: solid red;
+  outline: solid lightpink;
 }
 @media (min-width: 1314px) {
   .container {
