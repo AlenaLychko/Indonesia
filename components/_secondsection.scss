@@ -1,0 +1,55 @@
+.second-section {
+  background-image: linear-gradient(
+      180deg,
+      #010a20 0%,
+      rgba(1, 10, 32, 0.753) 100%
+    ),
+    url(../images/mounatins.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mountain-img {
+  width: 314px;
+  height: 232px;
+  border-radius: 10px;
+  flex-direction: column;
+  @media (min-width: 1314px) {
+    padding-top: 207px;
+    padding-left: 340px;
+  }
+}
+.mountain-title {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 40px;
+  color: $white;
+  @media (min-width: 1314px) {
+    font-size: 42px;
+  }
+}
+.mountain-text {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: $text-light;
+  @media (min-width: 1314px) {
+    font-size: 18px;
+  }
+}
+.btn-second {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: $white;
+  padding: 22px 108px;
+  background-color: $main-red;
+
+  border-radius: 42px;
+  border: none;
+  @media (min-width: 1314px) {
+    padding: 16px 40px;
+  }
+}

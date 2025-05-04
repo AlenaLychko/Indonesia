@@ -41,29 +41,188 @@ ul {
 }
 
 .title {
-  padding-top: 195px;
+  padding-top: 62px;
   font-family: "Roboto";
   font-weight: 900;
-  font-size: 120px;
-  line-height: 0.92;
+  font-size: 58.15px;
   color: #fff;
-  padding-bottom: 21px;
+  padding-bottom: 8px;
+}
+@media (min-width: 1314px) {
+  .title {
+    font-size: 120px;
+    padding-top: 195px;
+    padding-bottom: 21px;
+  }
 }
 
 .btn-first {
   font-family: "DM Sans";
   font-weight: 700;
-  font-size: 20px;
   text-align: center;
   color: #fff;
   background-color: #DD2242;
-  border-radius: 211px;
+  border-radius: 107px;
   border: none;
-  padding: 26px 64px;
+  padding: 21px 90px;
+  margin-bottom: 54px;
+}
+@media (min-width: 1314px) {
+  .btn-first {
+    margin-bottom: 241px;
+    font-size: 20px;
+    border-radius: 211px;
+    padding: 26px 64px;
+  }
+}
+
+.here-list {
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5882352941);
+}
+@media (min-width: 1314px) {
+  .here-list {
+    position: relative;
+    right: -100px;
+    width: 1225px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.here-item {
+  margin-right: 198px;
+  margin-left: 32px;
+}
+@media (min-width: 1314px) {
+  .here-item {
+    width: 210px;
+  }
+  .here-item .here-item:first-child {
+    margin-left: 71px;
+  }
+}
+
+.here-number {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 16px;
+  color: #DD2242;
+  padding-bottom: 4px;
+  padding-top: 35px;
+}
+@media (min-width: 1314px) {
+  .here-number {
+    padding-bottom: 14px;
+    padding-top: 41px;
+  }
+}
+
+.here-title {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 26.41px;
+  padding-bottom: 4px;
+  color: #fff;
+}
+@media (min-width: 1314px) {
+  .here-title {
+    padding-bottom: 14px;
+  }
+}
+
+.here-text {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #939393;
+  padding-bottom: 32px;
+}
+@media (min-width: 1314px) {
+  .here-text {
+    padding-bottom: 49px;
+  }
 }
 
 .explore {
   font-family: "Roboto";
   font-weight: 900;
   font-size: 23.96px;
+}
+
+.explor-list {
+  gap: 30px;
+  display: none;
+}
+@media (min-width: 1314px) {
+  .explor-list {
+    display: flex;
+  }
+}
+
+.explor-item {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.second-section {
+  background-image: linear-gradient(180deg, #010a20 0%, rgba(1, 10, 32, 0.753) 100%), url(../images/mounatins.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mountain-img {
+  width: 314px;
+  height: 232px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+@media (min-width: 1314px) {
+  .mountain-img {
+    padding-top: 207px;
+    padding-left: 340px;
+  }
+}
+
+.mountain-title {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+@media (min-width: 1314px) {
+  .mountain-title {
+    font-size: 42px;
+  }
+}
+
+.mountain-text {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #E0E0E0;
+}
+@media (min-width: 1314px) {
+  .mountain-text {
+    font-size: 18px;
+  }
+}
+
+.btn-second {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  padding: 22px 108px;
+  background-color: #DD2242;
+  border-radius: 42px;
+  border: none;
+}
+@media (min-width: 1314px) {
+  .btn-second {
+    padding: 16px 40px;
+  }
 }
