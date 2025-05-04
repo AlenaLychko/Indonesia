@@ -1,0 +1,77 @@
+.third-section {
+     background-image: linear-gradient(
+      180deg,
+      #010a20 0%,
+      rgba(1, 10, 32, 0.795) 100%
+    ),
+    url(../images/palm.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+    
+  display: flex;
+  gap: 40px;
+ 
+
+}
+.palm-img {
+     width: 314px;
+  height: 232px;
+  border-radius: 10px;
+  flex-direction: column;
+  @media (min-width: 1314px) {
+    position: relative;
+    width: 530px;
+    height: 360px;
+ left: 650px;
+ top: 100px;
+  
+   
+    
+  
+  }
+}
+
+.palm-title {
+     font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 40px;
+  color: $white;
+  @media (min-width: 1314px) {
+    font-size: 42px;
+
+    margin-bottom: 4px;
+   
+   
+  }
+}
+.palm-text {
+      font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: $text-light;
+  @media (min-width: 1314px) {
+    font-size: 18px;
+    padding-bottom: 32px;
+  }
+}
+
+.btn-third {
+    font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: $white;
+  padding: 22px 108px;
+  background-color: $main-red;
+
+  border-radius: 42px;
+  border: none;
+  @media (min-width: 1314px) {
+    padding: 16px 40px;
+    
+  }
+}
