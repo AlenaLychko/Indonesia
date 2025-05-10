@@ -172,28 +172,34 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 207px;
+  padding-bottom: 104px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .content-wrapper {
   display: flex;
   gap: 40px;
-  align-items: flex-start;
+  flex-direction: column;
+}
+@media (min-width: 1314px) {
+  .content-wrapper {
+    flex-direction: row;
+  }
 }
 
 .mountain-img {
   width: 314px;
   height: 232px;
   border-radius: 10px;
+  margin-left: 30px;
   flex-direction: column;
 }
 @media (min-width: 1314px) {
   .mountain-img {
-    position: relative;
-    left: 120px;
-    top: 120px;
     width: 530px;
     height: 360px;
-    align-items: flex-start;
   }
 }
 
@@ -206,7 +212,6 @@ ul {
 @media (min-width: 1314px) {
   .mountain-title {
     font-size: 42px;
-    padding-top: 180px;
     margin-bottom: 4px;
     padding-left: 130px;
   }
@@ -239,7 +244,6 @@ ul {
 @media (min-width: 1314px) {
   .btn-second {
     padding: 16px 40px;
-    margin-bottom: 200px;
     margin-left: 130px;
   }
 }
@@ -251,24 +255,33 @@ ul {
   background-size: cover;
 }
 
-.wrapper {
+.third-container {
   display: flex;
   gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-direction: column;
+}
+@media (min-width: 1314px) {
+  .third-container {
+    flex-direction: row-reverse;
+  }
 }
 
 .palm-img {
   width: 314px;
   height: 232px;
+  margin-left: 30px;
   border-radius: 10px;
   flex-direction: column;
 }
 @media (min-width: 1314px) {
   .palm-img {
-    position: relative;
+    display: flex;
     width: 530px;
     height: 360px;
-    left: 650px;
-    top: 100px;
+    margin-bottom: 305px;
   }
 }
 
@@ -312,4 +325,113 @@ ul {
   .btn-third {
     padding: 16px 40px;
   }
+}
+
+.secrets-section {
+  background-image: url(../images/bgpole.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-row {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.secrets-text {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 50px;
+  color: #010A20;
+  padding-top: 127px;
+  padding-bottom: 44px;
+}
+
+.img-secrets {
+  padding-left: 31px;
+  padding-bottom: 933px;
+}
+
+.bg {
+  background-color: rgba(2, 12, 33, 0.7960784314);
+}
+
+.numbers-list {
+  flex-direction: column;
+}
+@media (min-width: 1314px) {
+  .numbers-list {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.numbers-item {
+  margin-left: 127px;
+}
+
+.nubmers-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 72px;
+  padding-bottom: 57px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+@media (min-width: 1314px) {
+  .nubmers-title {
+    font-size: 60px;
+    padding-bottom: 36px;
+  }
+}
+
+.numbers-pretitle {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #E0E0E0;
+}
+@media (min-width: 1314px) {
+  .numbers-pretitle {
+    font-size: 18px;
+    padding-bottom: 39px;
+  }
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 42.14px;
+  padding-bottom: 4px;
+  color: #DD2242;
+}
+@media (min-width: 1314px) {
+  .numbers {
+    padding-bottom: 18px;
+  }
+}
+
+.numbers-text {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #E0E0E0;
+}
+
+.hills {
+  background-image: url(../images/bgline.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
