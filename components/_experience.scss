@@ -48,22 +48,30 @@
 
 .travel-title {
     
-  font-family: "DM Sans";
-  font-weight: 700;
-  font-size: 18px;
+ font-family: "DM Sans";
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+
   color: $white;
   margin-bottom: 15px;
+  padding-left: 41px;
 }
 
 .travel-text {
   font-family: "DM Sans";
-  font-weight: 400;
-  font-size: 18px;
+font-weight: 400;
+font-size: 18px;
+
+
   color: $gray;
+  padding-right: 75px;
 
 
 }
 
 .travel-img {
-
+width: 233px;
+height: 151px;
 }
