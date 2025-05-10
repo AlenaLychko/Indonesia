@@ -1,0 +1,48 @@
+.experience-section {
+    background-image:  linear-gradient(
+      180deg,
+      #010a20ad 0%,
+      rgba(1, 10, 32, 0.815) 100%
+    ),url(../images/safaribg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.experience-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 42px;
+color: $white;
+padding-bottom: 67px;
+
+}
+.experience-img {
+    display: flex;
+  margin: 0 auto;
+width: 1056px;
+height: 594px;
+border-radius: 10px;
+}
+.travel-list {
+}
+.travel-item {
+}
+.travel-title {
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 18px;
+color: $white;
+
+}
+.travel-text {
+    font-family: "DM Sans";
+font-weight: 400;
+font-size: 18px;
+color: $gray;
+
+}
+.travel-img {
+}
