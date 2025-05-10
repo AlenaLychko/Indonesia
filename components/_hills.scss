@@ -1,13 +1,41 @@
 .hills {
-    background-image: url(../images/bgline.png) ;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url(../images/bgline.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.container {
-}
+
 .hills-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 42px;
+  padding-top: 249px;
+  padding-bottom: 32px;
 }
 .hills-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: $gray;
+  padding-bottom: 36px;
 }
-.btm-hills {
+.btn-hills {
+  display: flex;
+   margin-bottom: 256px;
+  margin: 0 auto;
+
+  font-family: "DM Sans";
+  font-weight: 700;
+
+  font-size: 18px;
+  background-color: $main-red;
+  color: $white;
+  padding: 18px 56px;
+  border-radius: 107px;
+  border: none;
 }
