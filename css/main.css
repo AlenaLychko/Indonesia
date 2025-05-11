@@ -435,6 +435,8 @@ ul {
   background-image: url(../images/bgline.png);
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 249px;
+  padding-bottom: 256px;
 }
 
 .hills-title {
@@ -444,7 +446,6 @@ ul {
   font-family: "DM Sans";
   font-weight: 700;
   font-size: 42px;
-  padding-top: 249px;
   padding-bottom: 32px;
 }
 
@@ -462,7 +463,6 @@ ul {
 .btn-hills {
   display: flex;
   margin: 0 auto;
-  margin-bottom: 256px;
   font-family: "DM Sans";
   font-weight: 700;
   font-size: 18px;
@@ -530,6 +530,7 @@ ul {
   font-family: "DM Sans";
   font-weight: 400;
   font-size: 18px;
+  padding-left: 42px;
   color: #939393;
   padding-right: 75px;
 }
@@ -537,4 +538,94 @@ ul {
 .travel-img {
   width: 233px;
   height: 151px;
+  padding-bottom: 255px;
+}
+
+.gallery-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.gallery-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #939393;
+}
+
+.getting {
+  background-color: #DCE8F2;
+  padding-top: 119px;
+  padding-bottom: 117px;
+}
+
+.getting-title {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 60px;
+  color: #010A20;
+  padding-bottom: 44px;
+}
+
+.getting-list {
+  margin-left: 100px;
+}
+
+.getting-item-title {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 26.41px;
+  color: #010A20;
+  padding-bottom: 28px;
+  margin-left: 45px;
+}
+
+.getting-item-text {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 23.47px;
+  color: gray;
+  padding-bottom: 79px;
+  margin-left: 45px;
+}
+
+.getting-wrap {
+  display: flex;
+}
+
+.btn-getting {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  background-color: #DD2242;
+  padding: 18px 56px;
+  border: none;
+  border-radius: 112px;
+}
+
+.getting-img {
+  padding-bottom: 95px;
+  padding-left: 70px;
+}
+
+.circle-number {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 26.41px;
+  width: 58px;
+  height: 58px;
+  background-color: #DD2242;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

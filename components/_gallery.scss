@@ -1,0 +1,23 @@
+.gallery {
+}
+
+.gallery-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 60px;
+
+
+}
+.gallery-text {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans";
+font-weight: 400;
+font-size: 18px;
+color: $gray;
+
+}

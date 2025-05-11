@@ -1,0 +1,72 @@
+.getting {
+    background-color: $light-bg;
+    padding-top: 119px;
+    padding-bottom: 117px;
+}
+
+.getting-title {
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 60px;
+color: $blue;
+padding-bottom: 44px;
+
+}
+.getting-list {
+    margin-left: 100px;
+  
+}
+.getting-item {
+}
+.getting-item-title {
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 26.41px;
+color: $blue;
+padding-bottom: 28px;
+margin-left: 45px;
+
+}
+.getting-item-text {
+    font-family: "DM Sans";
+font-weight: 400;
+font-size: 23.47px;
+color:gray;  
+padding-bottom: 79px;
+margin-left: 45px;
+
+    
+}
+.getting-wrap {
+    display: flex;
+}
+.btn-getting{
+font-family: "DM Sans";
+font-weight: 700;
+font-size: 18px;
+color: $white;
+background-color: $main-red;
+padding: 18px 56px;
+border: none;
+border-radius: 112px;
+}
+.getting-img{
+    padding-bottom: 95px;
+    padding-left: 70px;
+
+}
+.circle-number {
+    font-family: "DM Sans";
+font-weight: 500;
+font-size: 26.41px;
+
+
+  width: 58px;
+  height: 58px;
+  background-color: $main-red;
+  color: white;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
