@@ -629,3 +629,28 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+.footer {
+  background-color: #010A20;
+}
+
+.red {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 23.96px;
+  color: #DD2242;
+}
+
+.white {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 23.96px;
+  color: #fff;
+}
+
+.adress-item {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
