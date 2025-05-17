@@ -1,5 +1,5 @@
 .footer {
-    background-color: $blue;
+  background-color: $blue;
 }
 
 .footer-content {
@@ -11,27 +11,29 @@
 .footer-logo {
 }
 .red {
-    font-family: "Roboto";
-font-weight: 900;
-font-size: 23.96px;
-color: $main-red;
-
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 23.96px;
+  color: $main-red;
 }
 .white {
-        font-family: "Roboto";
-font-weight: 900;
-font-size: 23.96px;
-color: $white;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 23.96px;
+  color: $white;
 }
 .adress-list {
+    display: flex;
+    gap: 30px;
+      padding-left: 124px;
 }
 .adress-item {
-    font-family: "DM Sans";
-font-weight: 700;
-font-size: 18px;
-color: $white;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color: $white;
+  padding-right: 36px;
+
 }
 .adress-link {
-    
-
 }

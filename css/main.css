@@ -648,9 +648,16 @@ ul {
   color: #fff;
 }
 
+.adress-list {
+  display: flex;
+  gap: 30px;
+  padding-left: 124px;
+}
+
 .adress-item {
   font-family: "DM Sans";
   font-weight: 700;
   font-size: 18px;
   color: #fff;
+  padding-right: 36px;
 }
