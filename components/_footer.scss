@@ -23,9 +23,9 @@
   color: $white;
 }
 .adress-list {
-    display: flex;
-    gap: 30px;
-      padding-left: 124px;
+  display: flex;
+  gap: 30px;
+  padding-left: 124px;
 }
 .adress-item {
   font-family: "DM Sans";
@@ -33,7 +33,9 @@
   font-size: 18px;
   color: $white;
   padding-right: 36px;
-
 }
 .adress-link {
+}
+.fill{
+    fill: aqua;
 }

@@ -661,3 +661,7 @@ ul {
   color: #fff;
   padding-right: 36px;
 }
+
+.fill {
+  fill: aqua;
+}
