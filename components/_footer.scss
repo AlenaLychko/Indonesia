@@ -40,5 +40,26 @@
     fill:#fff;
     width: 24px;
     height: 24px;
-    padding-left: 720px;
+}
+.list-fill {
+      
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+  align-items:right;
+   
+}
+.item-fill {
+    display: flex;   
+}
+.link-fill {
+
+}
+.text-fill{
+    font-family: "DM Sans";
+font-weight: 700;
+font-size: 18px;
+color: #fff;
+
+
 }
