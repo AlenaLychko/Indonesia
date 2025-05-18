@@ -1,18 +1,8 @@
-p,
-h1,
-h2,
-h3,
-h4,
-form,
-input,
-label,
-button,
-ul,
-li {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
 
 a {
   text-decoration: none;

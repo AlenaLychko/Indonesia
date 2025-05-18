@@ -1,26 +1,28 @@
+.header {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .explore {
-    font-family: "Roboto";
-font-weight: 900;
-font-size: 23.96px;
-
-
-
-
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 23.96px;
+  color: #fff;
+ 
 }
 .explor-list {
-     
-  gap: 30px;
   display: none;
-  @media (min-width:1314px){
-    display: flex;
+  @media (min-width: 1314px) {
+   display: flex;
+    gap: 40px;
+    padding-left: 78px;
   }
 }
 .explor-item {
-    font-family: "DM Sans";
-font-weight: 700;
-font-size: 18px;
-
-
+  
 }
-.explor-link {
+.explor-link {font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 18px;
+  color:#fff;
 }
