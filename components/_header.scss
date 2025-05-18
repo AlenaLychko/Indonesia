@@ -3,6 +3,9 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.header-container{
+  display: flex;
+}
 .explore {
   font-family: "Roboto";
   font-weight: 900;
@@ -16,6 +19,7 @@
    display: flex;
     gap: 40px;
     padding-left: 78px;
+    padding-top: 28px;
   }
 }
 .explor-item {
